@@ -1,0 +1,1 @@
+var e=``+new URL(`best_version_manul-CHcAaYsq.svg`,import.meta.url).href;export{e as default};
