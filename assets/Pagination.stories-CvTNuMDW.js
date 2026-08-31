@@ -1,6 +1,0 @@
-import{i as e,t}from"./iframe-CZbR_cjA.js";import"./createLucideIcon-Bpzycvdh.js";import"./chevron-right-BNes4tjn.js";import"./InlineSpinner-LqY_6uni.js";import"./InlineSpinner-BpoKxC1k.js";import"./Button-BneHRs15.js";import"./Button-CAn4DT-A.js";import{t as n}from"./Pagination-Co-TndiD.js";var r=e(),i=t(),a={title:`UI/Pagination`,component:n,parameters:{layout:`padded`,docs:{description:{component:`Компактная навигация назад/вперёд для страниц и временных периодов. Доступность переходов управляется отдельными флагами.`}}},args:{label:`Страница 1 из 5`,canGoPrevious:!1,canGoNext:!0,onPrevious:()=>{},onNext:()=>{}}};const o={render:function(){let[e,t]=(0,r.useState)(1);return(0,i.jsx)(n,{label:`Страница ${e} из 5`,canGoPrevious:e>1,canGoNext:e<5,onPrevious:()=>t(e=>e-1),onNext:()=>t(e=>e+1)})}};o.parameters={...o.parameters,docs:{...o.parameters?.docs,source:{originalSource:`{
-  render: function InteractiveExample() {
-    const [page, setPage] = useState(1);
-    return <Pagination label={\`Страница \${page} из 5\`} canGoPrevious={page > 1} canGoNext={page < 5} onPrevious={() => setPage(current => current - 1)} onNext={() => setPage(current => current + 1)} />;
-  }
-}`,...o.parameters?.docs?.source}}};const s=[`Interactive`];export{o as Interactive,s as __namedExportsOrder,a as default};
