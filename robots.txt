@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /bot/
+
+Disallow: /bot/api
+Disallow: /bot/auth
+Disallow: /bot/calendar-feed
+Disallow: /bot/main/home/events
+Disallow: /bot/main/home/itc
+Disallow: /bot/main/home/library
+Disallow: /bot/main/home/map
+Disallow: /bot/main/home/pay
+Disallow: /bot/main/profile
+
+Sitemap: https://lk.fa.ru/sitemap.xml
