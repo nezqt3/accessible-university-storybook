@@ -1,0 +1,1 @@
+.loader-wrapper{z-index:var(--ui-z-modal);padding:max(var(--ui-space-5), env(safe-area-inset-top)) var(--ui-space-5) max(var(--ui-space-5), env(safe-area-inset-bottom));background:var(--ui-color-bg);color:var(--ui-color-text);justify-content:center;align-items:center;display:flex;position:fixed;inset:0;overflow:auto}.loader-content{min-width:0;max-width:100%}

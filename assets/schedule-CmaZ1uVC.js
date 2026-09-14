@@ -1,0 +1,1 @@
+let e=function(e){return e.LECTURE=`Лекция`,e.SEMINAR=`Семинар`,e.EXAM=`Экзамен`,e.CONSULTATION=`Консультация`,e.CREDIT=`Зачет`,e}({}),t=function(e){return e.SUBSCRIPTION=`subscription`,e.SEARCH=`search`,e}({});export{e as n,t};

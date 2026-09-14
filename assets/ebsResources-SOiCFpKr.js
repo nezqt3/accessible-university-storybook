@@ -1,0 +1,1 @@
+import{n as e,t}from"./client-DPHXawHP.js";var n=null;function r(){n=null}async function i(r,i=`prefer-cache`){return i===`prefer-cache`&&n||(n=t(`${e}/elk/library/ebs-resources`,{signal:r}).then(e=>{if(!e.success)throw Error(`Не удалось получить электронные ресурсы.`);return e.data.filter(e=>!e.deleted_at)}).catch(e=>{throw n=null,e})),n}export{i as n,r as t};
