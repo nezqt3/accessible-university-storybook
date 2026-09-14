@@ -1,9 +1,0 @@
-import"./useTranslation-Ch5uCjQR.js";import"./createLucideIcon-Cqzfk4mC.js";import"./calendar-days-gda4oukr.js";import"./external-link-NoWmvSDQ.js";import"./globe-DPz2PPMH.js";import"./projectLinks-v2S7kl9W.js";import"./message-circle-C7DoTZ4c.js";import"./send-YF7PQXK-.js";import"./users-STItnD6R.js";import"./x-aIX4-Ysv.js";import"./motion-BSxM25dS.js";import"./InlineSpinner-CyIcXxmd.js";import"./InlineSpinner-CS4GXR4f.js";import"./IconButton-brlandGx.js";import"./IconButton-CkfbeZNf.js";import"./CloseButton-Dlth1W31.js";import"./CloseButton-DuLuJ11g.js";import"./Pressable-CUg6ryb7.js";import"./Pressable-B92bGPbW.js";import"./Typography-qnf5X21q.js";import"./Typography-BvsIeinA.js";import"./proxy-Dnaxw7vE.js";import"./ModalOverlay-DsbVphhP.js";import"./use-reduced-motion-D1xf7gmi.js";import"./Modal-BNO3joPp.js";import"./ModalHeader-BBxKWgyV.js";import"./ModalHeader-CxQ2g3I2.js";import"./Stack-BEfcK43M.js";import"./Stack-duc46O7L.js";import"./ListRow-BqlvWJF6.js";import"./ListRow-Cq2I6Jbp.js";import{t as e}from"./InformationPomoshnik-B2ZUb2Yj.js";var t={title:`Screens/About`,component:e,parameters:{layout:`fullscreen`},args:{isOpen:!0,onClose:()=>{}}};const n={},r={globals:{theme:`dark`}},i={globals:{textScale:`large`}};n.parameters={...n.parameters,docs:{...n.parameters?.docs,source:{originalSource:`{}`,...n.parameters?.docs?.source}}},r.parameters={...r.parameters,docs:{...r.parameters?.docs,source:{originalSource:`{
-  globals: {
-    theme: "dark"
-  }
-}`,...r.parameters?.docs?.source}}},i.parameters={...i.parameters,docs:{...i.parameters?.docs,source:{originalSource:`{
-  globals: {
-    textScale: "large"
-  }
-}`,...i.parameters?.docs?.source}}};const a=[`Default`,`Dark`,`LargeText`];export{r as Dark,n as Default,i as LargeText,a as __namedExportsOrder,t as default};

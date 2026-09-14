@@ -1,0 +1,22 @@
+import"./preload-helper-DGWYlufl.js";import"./useTranslation-QvKtmgQC.js";import{t as e}from"./iframe-b1ov7CI7.js";import"./react-dom-D1mdwjAE.js";import"./schedule-CbZrpUwa.js";import"./scheduleStorage-DFdatJ6q.js";import"./Schedule-BJApNQWq.js";import"./cache-iKgmnTQM.js";import"./format-DRsuurA_.js";import"./chunk-OE4NN4TA-DcYecFGT.js";/* empty css           */import"./createLucideIcon-B-7CjJKR.js";import{t}from"./calendar-plus-BnTi2mP3.js";import"./check-CguIO69w.js";import"./chevron-down-D5fXjT2z.js";import"./chevron-left-CFoWz1qN.js";import"./chevron-right-TeIxAxjT.js";import"./circle-alert-Dcqztvsl.js";import"./circle-check-DZ5UW0vD.js";import"./Alert-Dv4tbDaI.js";import"./search-Bic9QSpq.js";import"./x-uXlYzy0q.js";import"./motion-BSxM25dS.js";import"./BackButton-DJ9tVXjr.js";import"./BackButton-DJ11xob5.js";import"./InlineSpinner-BikkIcdx.js";import"./InlineSpinner-CS4GXR4f.js";import"./Button-CVlnf8vi.js";import"./Button-BSxYERbh.js";import{t as n}from"./IconButton-BHQof1qE.js";import"./IconButton-CkfbeZNf.js";import"./CloseButton-CF7KZhtd.js";import"./CloseButton-DuLuJ11g.js";import"./Pressable-qu7RCk4r.js";import"./Pressable-B92bGPbW.js";import"./Badge-BDsePzDM.js";import"./Badge-BilbQ7OI.js";import"./Card-CVYhQ6r6.js";import"./Card-BTpC5DGf.js";import"./Typography-DU2Y6fZX.js";import"./Typography-BvsIeinA.js";import"./Alert-ys5X1zSQ.js";import"./EmptyState-p20joec-.js";import"./EmptyState-Ivo_4GWO.js";import"./proxy-BQ55LVPr.js";import"./ModalOverlay-5fLQRiIu.js";import"./AnimatePresence-BdMsd0d5.js";import"./use-reduced-motion-Pz8xRbFI.js";import"./useLazyAsset-D2V-2ato.js";import"./ErrorState-2JTVvdMN.js";import"./PageLoadingFallback-B6vY67cH.js";import"./Spinner-BpIQ2Kwy.js";import"./Loader-CA5aG1YK.js";import"./PageLoadingFallback-DBvSgSzr.js";import"./NotificationStatus-D8lId5wa.js";import"./Skeleton-D1uGFIww.js";import"./Skeleton-B4XjFKC-.js";import"./Checkbox-D1dohTBf.js";import"./Checkbox-BPZuTt7k.js";import"./FormField-Bpm6jzpY.js";import"./FormField-Dm-RTxrN.js";import"./Input-D937cDJi.js";import"./Input-CZx1ckHV.js";import"./OtpInput-CFclY1Am.js";import"./Switch-BT4A8Nwy.js";import"./Select-CiMmnxMp.js";import"./Modal-DC6UI6Li.js";import"./ModalHeader-u8wb2ZUc.js";import"./ModalHeader-CxQ2g3I2.js";import"./Select-Ba6AdoTw.js";import"./Switch-BCaDSaR6.js";import"./Textarea-B__OtBV9.js";import"./Textarea-DC33Ir5K.js";import"./Grid-DY5EdTbs.js";import"./Inline-BAM8T-hC.js";import"./Inline-C7M9bN4S.js";import"./Layout-DuxMRgoN.js";import"./Layout-BM_IwlmX.js";import"./Stack-BQ1EjeYw.js";import"./Stack-duc46O7L.js";import"./Pagination-DaPXHNyE.js";import"./Pagination-CRDuVwzu.js";import"./Tabs-Bnacv--T.js";import"./Tabs-C7Z4yjbL.js";import"./DatePickerModal-Bmpvu7rb.js";import"./DatePickerModal-C9bsjxHz.js";import"./TicketCodeModal-LPiZR9So.js";import"./AppHeader-B7kx1hsq.js";import"./AppHeader-D1ZmB5_8.js";import"./schedule-CmaZ1uVC.js";import"./normalize-DaP4x4IB.js";import{t as r}from"./ScheduleHeader-kNMJ7WGB.js";import{n as i}from"./scheduleDesign.fixtures-BKicpApE.js";var a=e(),o={title:`Schedule/GroupSelector`,component:r,args:{scheduleChoose:i,onOpenGroupSearch:()=>{},onOpenProductInfo:()=>{},actions:(0,a.jsx)(n,{ariaLabel:`Подписаться на календарь`,variant:`ghost`,children:(0,a.jsx)(t,{})})}};const s={},c={args:{scheduleChoose:{...i,name:`ТРПО-ИНФОРМАЦИОННЫЕ-СИСТЕМЫ-2026-ВЕЧЕРНЕЕ-ОТДЕЛЕНИЕ-12`}}},l={...c,globals:{textScale:`large`}},u={...c,globals:{theme:`dark`}},d={args:{scheduleChoose:null}};s.parameters={...s.parameters,docs:{...s.parameters?.docs,source:{originalSource:`{}`,...s.parameters?.docs?.source}}},c.parameters={...c.parameters,docs:{...c.parameters?.docs,source:{originalSource:`{
+  args: {
+    scheduleChoose: {
+      ...group,
+      name: "ТРПО-ИНФОРМАЦИОННЫЕ-СИСТЕМЫ-2026-ВЕЧЕРНЕЕ-ОТДЕЛЕНИЕ-12"
+    }
+  }
+}`,...c.parameters?.docs?.source}}},l.parameters={...l.parameters,docs:{...l.parameters?.docs,source:{originalSource:`{
+  ...LongGroup,
+  globals: {
+    textScale: "large"
+  }
+}`,...l.parameters?.docs?.source}}},u.parameters={...u.parameters,docs:{...u.parameters?.docs,source:{originalSource:`{
+  ...LongGroup,
+  globals: {
+    theme: "dark"
+  }
+}`,...u.parameters?.docs?.source}}},d.parameters={...d.parameters,docs:{...d.parameters?.docs,source:{originalSource:`{
+  args: {
+    scheduleChoose: null
+  }
+}`,...d.parameters?.docs?.source}}};const f=[`Default`,`LongGroup`,`LargeText`,`Dark`,`Empty`];export{u as Dark,s as Default,d as Empty,l as LargeText,c as LongGroup,f as __namedExportsOrder,o as default};
