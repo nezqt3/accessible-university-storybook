@@ -1,2 +1,0 @@
-import{t as e,y as t}from"./iframe-b1ov7CI7.js";var n=t(),r=e();const i=(0,n.forwardRef)(function({type:e=`button`,...t},n){return(0,r.jsx)(`button`,{...t,ref:n,type:e})});i.__docgenInfo={description:`Базовый shared-примитив для кнопок со сложной локальной разметкой.
-Не навязывает визуальный стиль и сохраняет семантику нативной кнопки.`,methods:[],displayName:`Pressable`,props:{type:{defaultValue:{value:`"button"`,computed:!1},required:!1}}};export{i as t};

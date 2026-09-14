@@ -1,1 +1,0 @@
-import"./client-DPHXawHP.js";import"./api-DZz9UYpn.js";import{n as e,t}from"./ebsResources-SOiCFpKr.js";export{e as getEbsResources};

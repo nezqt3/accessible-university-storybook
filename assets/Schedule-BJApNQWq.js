@@ -1,1 +1,0 @@
-const e=[`Пн`,`Вт`,`Ср`,`Чт`,`Пт`,`Сб`,`Вс`],t=[`Январь`,`Февраль`,`Март`,`Апрель`,`Май`,`Июнь`,`Июль`,`Август`,`Сентябрь`,`Октябрь`,`Ноябрь`,`Декабрь`];let n=function(e){return e.PERSON=`person`,e.GROUP=`group`,e.AUDITORIUM=`auditorium`,e}({});export{t as n,n as r,e as t};

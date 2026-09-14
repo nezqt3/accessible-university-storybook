@@ -1,1 +1,0 @@
-function e(e){return e?.user_role_infos?.find(e=>e.user_role===`STUDENT`)??null}function t(t){let n=e(t)?.base_profile_id??(t?.last_selected_role?.user_role===`STUDENT`?t.last_selected_role.base_profile_id:null);return typeof n==`number`&&n>0?n:null}function n(e){return t(e)!==null}export{n,t};

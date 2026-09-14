@@ -1,1 +1,0 @@
-function e(e){let t=String(e||``).trim().replace(/\s+/g,` `);if(!t)return``;let[n,...r]=t.split(` `);if(!n||r.length===0||r.some(e=>e.includes(`.`)))return t;let i=r.slice(0,2).map(e=>e[0]?.toUpperCase()).filter(Boolean).map(e=>`${e}.`).join(``);return i?`${n} ${i}`:t}export{e as t};

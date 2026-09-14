@@ -1,1 +1,0 @@
-const e=()=>{let e=document.querySelector(`.screen`);e&&(e.scrollTop=0)},t=()=>{let e=document.querySelector(`.screen`);e&&(e.style.overflowY=`hidden`)},n=()=>{let e=document.querySelector(`.screen`);e&&(e.style.overflowY=`auto`)},r=(e=!0,t)=>{t.current&&t.current.scrollTo({top:t.current.scrollHeight,behavior:e?`smooth`:`auto`})};export{r as i,e as n,n as r,t};
