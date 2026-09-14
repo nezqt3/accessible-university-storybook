@@ -1,0 +1,1 @@
+import{y as e}from"./iframe-B4LKz5fK.js";var t=e();function n(){let[e,n]=(0,t.useState)(null),r=(0,t.useCallback)(e=>{n(e)},[]),i=(0,t.useCallback)(()=>{n(null)},[]);return{notificationMessage:e,isNotificationVisible:e!==null,showNotification:r,clearNotification:i}}export{n as t};
