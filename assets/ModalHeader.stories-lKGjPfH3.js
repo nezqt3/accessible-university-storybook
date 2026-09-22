@@ -1,5 +1,0 @@
-import"./useTranslation-BVb12BKQ.js";import{t as e}from"./iframe-VzX5uRic.js";import"./createLucideIcon-uc0lRL-Y.js";import{t}from"./calendar-days-BVMyZv05.js";import"./IconButton-C2NhzesF.js";import"./InlineSpinner-C4UKMscH.js";import"./InlineSpinner-D-yUgJTS.js";import"./CloseButton-DcMF6ugn.js";import"./CloseButton-d9YZdAKA.js";import{t as n}from"./ModalHeader-Cf3ze7Iu.js";var r={title:`UI/ModalHeader`,component:n,parameters:{docs:{description:{component:`Стандартная шапка модального окна: иконка, заголовок, необязательное описание и единая кнопка закрытия.`}}},args:{title:`Выберите дату`,description:`Расписание откроется сразу после выбора дня`,icon:(0,e().jsx)(t,{size:22}),onClose:()=>{}}};const i={},a={args:{icon:void 0}};i.parameters={...i.parameters,docs:{...i.parameters?.docs,source:{originalSource:`{}`,...i.parameters?.docs?.source}}},a.parameters={...a.parameters,docs:{...a.parameters?.docs,source:{originalSource:`{
-  args: {
-    icon: undefined
-  }
-}`,...a.parameters?.docs?.source}}};const o=[`Default`,`WithoutIcon`];export{i as Default,a as WithoutIcon,o as __namedExportsOrder,r as default};
