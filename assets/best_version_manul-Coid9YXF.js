@@ -1,0 +1,1 @@
+import{t as e}from"./best_version_manul-C8Ih4KVJ.js";export{e as default};

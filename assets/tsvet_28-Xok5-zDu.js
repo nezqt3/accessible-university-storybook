@@ -1,0 +1,1 @@
+var e=``+new URL(`tsvet_28-xz66-B0l.svg`,import.meta.url).href;export{e as default};
