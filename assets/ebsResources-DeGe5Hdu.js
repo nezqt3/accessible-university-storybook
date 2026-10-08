@@ -1,0 +1,1 @@
+import"./client-C20P11so.js";import"./api-2ovOr7ng.js";import"./api-CFUqr1b7.js";import{n as e,t}from"./ebsResources-BNirc7OV.js";export{e as getEbsResources};
