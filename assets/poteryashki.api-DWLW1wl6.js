@@ -1,0 +1,1 @@
+import"./baseApi-6WAyKw_c.js";import"./client-C20P11so.js";import"./api-2ovOr7ng.js";import{n as e,r as t,t as n}from"./poteryashki.api-BIMLOFQ5.js";export{n as poteryashkiApi,e as useCreatePoteryashkiPostMutation,t as useListPoteryashkiPostsQuery};
