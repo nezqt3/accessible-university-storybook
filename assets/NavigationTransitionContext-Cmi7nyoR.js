@@ -1,1 +1,0 @@
-import{S as e}from"./iframe-c-OIrLS8.js";var t=e(),n=(0,t.createContext)(!1);const r=n.Provider;function i(){return(0,t.useContext)(n)}export{i as n,r as t};

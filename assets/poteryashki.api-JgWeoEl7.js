@@ -1,0 +1,1 @@
+import"./baseApi-DWntR_KC.js";import"./client-DMLkocDF.js";import{n as e,r as t,t as n}from"./poteryashki.api-C2pY_mQh.js";export{n as poteryashkiApi,e as useCreatePoteryashkiPostMutation,t as useListPoteryashkiPostsQuery};
