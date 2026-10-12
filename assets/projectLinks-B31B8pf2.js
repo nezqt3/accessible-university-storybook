@@ -1,0 +1,1 @@
+const e={telegramBot:`https://t.me/FinancialUniversityBot`,maxBot:`https://max.ru/financial_university_bot`,support:`https://t.me/schedulesupport`,community:`https://t.me/itc_teams`,officialSchedule:`https://fa.ru/for-students/schedule/`};e.telegramBot,e.maxBot,e.support,e.community,e.officialSchedule;export{e as t};
