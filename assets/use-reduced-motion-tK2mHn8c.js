@@ -1,0 +1,1 @@
+import{S as e}from"./iframe-BzBaAr8M.js";import{d as t,l as n,u as r}from"./proxy-D65zYvg1.js";var i=e();function a(){!r.current&&n();let[e]=(0,i.useState)(t.current);return e}export{a as t};
