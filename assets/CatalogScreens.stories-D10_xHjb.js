@@ -1,0 +1,82 @@
+import"./preload-helper-DGWYlufl.js";import{t as e}from"./useTranslation-D-aU4f03.js";import{t}from"./iframe-BgC4QF32.js";import"./react-dom-CL5saaxG.js";import"./baseApi-DlZWa_4e.js";import"./client-DMLkocDF.js";import"./schedule-DBCM0gyi.js";import"./api-DZz9UYpn.js";import"./scheduleSubscriptions-eLOKqjyl.js";import"./scheduleStorage-DGu8OJCG.js";import"./Schedule-CcBJWk1K.js";import"./cache-DBkZzxiK.js";import"./format-Cwr2AuTk.js";import"./studyPlaces-BnJuXiA6.js";import"./profile-OqQZbyL9.js";import"./store-Dd6hIy44.js";import{c as n,i as r,t as i,u as a}from"./chunk-OE4NN4TA-COuAeJcs.js";import"./app-B-LM_Z3R.js";/* empty css           */import"./createLucideIcon-B16nweCc.js";import{t as o}from"./LandingPage-Bg7aieyk.js";import"./arrow-left-gMb34a9x.js";import"./arrow-right-rmt61XJu.js";import{n as s,t as c}from"./ApplicationsPage-Zl52E3We.js";import"./bell-DhndjnYM.js";import"./book-open-BpgwVpCx.js";import"./building-2-DrHpxPT5.js";import{n as l,r as u,t as d}from"./ServicesPage-DfyMwtM_.js";import"./calendar-days-CDr3MNm_.js";import"./check-v_LV27aT.js";import"./chevron-down-B4dP74wr.js";import"./chevron-left-f3o16TEb.js";import"./chevron-right-aoKq3O8O.js";import"./circle-alert-BSxUa3R5.js";import"./circle-check-C6xxfQkM.js";import{t as f}from"./InDevelopmentPage-CSH7WY1k.js";import"./copy-Nr_aSvXx.js";import"./credit-card-DC8gKqFH.js";import"./download-s57xAzH0.js";import{t as p}from"./LibraryPage-DltaHika.js";import"./external-link-BVSn5n19.js";import{t as m}from"./MaterialsPage-B4ltsL0d.js";import"./file-text-DjwktdN8.js";import"./graduation-cap-MSVzTRtf.js";import"./hash-Zu8Lmreg.js";import"./info-CktH8GD8.js";import"./log-in-Da0t9vwq.js";import"./logo-dv-D2FAbrw6.js";import{n as h,r as g,t as _}from"./ITCAboutPage-pSiwtWoj.js";import"./moon-KkX1aIjk.js";import"./newspaper-CwSsmjE_.js";import"./palette-CVHyxOSk.js";import"./refresh-ccw-FDW9QSq2.js";import"./refresh-cw-CDgTqeP2.js";import"./rotate-ccw-y4KMZHKK.js";import"./scroll-text-Bh5TwL6L.js";import"./search-DyFcSRiq.js";import"./sparkles-BKYDiqJE.js";import"./trash-2-BOCZViFs.js";import"./Alert-BWh6FU8G.js";import"./users-DKyVDXln.js";import"./x-DeThYvLg.js";import"./motion-C9fxwz80.js";import{t as ee}from"./NavigationTransitionContext-D79BFwWZ.js";import{t as te}from"./BackButton-BsD5Ih9p.js";import"./BackButton-DVkhGdk7.js";import"./InlineSpinner-CBIQLgmS.js";import"./InlineSpinner-DGBp7q51.js";import"./Button-BWU--gB6.js";import"./Button-BA_jpygv.js";import"./IconButton-CBDZ9vXW.js";import"./IconButton-WT9EAVsO.js";import"./ModalCloseContext-BOKqPjCS.js";import"./CloseButton-CKC4LnPI.js";import"./CloseButton-CT6ApXCH.js";import"./Pressable-Ba55c0wK.js";import"./Pressable-RrhW_cjo.js";import"./Badge-D8_Sf071.js";import"./Badge-Dq9LiM2w.js";import"./use-reduced-motion-BiSVJF6j.js";import"./ModalOverlay-Ds_UD4_I.js";import"./AnimatePresence-Bbbot8bT.js";import"./LoaderTransitionContext-DKcwLzlE.js";import"./BlurTransition-D7u-HmKI.js";import"./BlurTransition-MGIcubQU.js";import"./Card-DpZ30Oxq.js";import"./Card-Doq15t3c.js";import"./Typography-BH1B6yTK.js";import"./Typography-DVvNjpAw.js";import"./Alert-DFWBN98n.js";import"./AsyncContentTransition-CzuKe7we.js";import"./AsyncContentTransition-BFltYoIl.js";import"./EmptyState-DdzQWQcl.js";import"./EmptyState-02ql18bx.js";import"./ErrorState-BDptnMjG.js";import"./TopLevelTabTransition-CKMSKdW_.js";import"./Spinner-B5m1QouG.js";import"./Loader-BpLhPSR9.js";import"./Loader-CGp4NDSc.js";import"./LoaderTransition-CvqmAts_.js";import"./NotificationStatus-CcmNxgjY.js";import"./PageLoadingFallback-D9pKvbqF.js";import"./Skeleton-ClEm9rfE.js";import"./Skeleton-ChK5Iu2x.js";import"./Checkbox-Bw4w7_4G.js";import"./Checkbox-Dpzxurdj.js";import"./FormField-WG2VqsSE.js";import"./FormField-C3pULiZ3.js";import"./Input-D15hzeKy.js";import"./Input-DXRPRK1S.js";import"./OtpInput-cGbQ0X8P.js";import"./OtpInput-CaJQ6XUa.js";import"./Select-CcxXoXzd.js";import"./Modal-BPyHJU71.js";import"./ModalHeader-BRUlOqff.js";import"./ModalHeader-B5wsWETS.js";import"./Select-BzZ9D2tC.js";import"./Switch-DwvrsSFR.js";import"./Switch-BnpJ1gCp.js";import"./Textarea-BVbDn2E-.js";import"./Textarea-BJVLi_Dg.js";import"./Grid-9gEdm2Nu.js";import"./Grid-DCmehTzr.js";import"./Inline-CI3-7PLe.js";import"./Inline-Bux_RO3c.js";import"./Layout-CaqldAuC.js";import"./Layout-CrjOs2Od.js";import"./Stack-D9ZD5KTR.js";import"./Stack-CqlUafn4.js";import"./Pagination-Bsy0QvkN.js";import"./Pagination-RSV2lW4B.js";import"./Tabs-BWYKDmLJ.js";import"./Tabs-CszNVceh.js";import"./DatePickerModal-DAgxmbj7.js";import"./DatePickerModal-B7fMn1Ed.js";import"./TicketCodeModal-CyUzsnNb.js";import"./ListRow-B-Lf12yO.js";import"./ListRow-BtepeKeJ.js";import"./ServiceCard-BBnHJJtG.js";import"./ServiceCard-BPeYE39s.js";import{t as ne}from"./AppHeader-DElkAqCl.js";import"./AppHeader-DNvBo5ey.js";/* empty css                          */import"./routePreload-Dp9ck-5-.js";import{v as re,y as ie}from"./providers-j271Ltfe.js";import"./authStorage-mqDRyF6H.js";import"./useModalUrlState-CXQZO_XB.js";import{i as ae}from"./useProfile-Db0M0ppu.js";import"./lessonTime-Cw9t6lsz.js";import"./lessonLecturers-DfFePmhu.js";import"./workWithLessons-D2frCFTy.js";import"./schedule-BzzS6T-2.js";import"./normalize-gIciNRaO.js";import"./SearchSchedule-CzyOytC_.js";import"./Theme-zlmAhImm.js";import"./useGroupScheduleSearch-X9v11a49.js";import"./OnboardingFlow-B3bAq9Fb.js";import"./best_version_manul-0e9eI4PS.js";import"./GroupSearchResultsRegion-BqRArrZW.js";import"./studentProfile-BgfhqvXA.js";import"./dom-D5PpQIr9.js";import{t as v}from"./EmployeeServicesPage-DU21ZG_J.js";import"./serviceWarmup-PTwf5vAP.js";import"./projectLinks-CCIxDlWD.js";import{t as y}from"./ebsResources-CdtqBi6c.js";import{n as b,t as x}from"./StudentOfficePage-DeSFvEW2.js";var S=t(),C={isAuthenticated:!1,isAuthChecked:!0,username:null,authFailureReason:null,login:async()=>{},logoutFromProfile:async()=>{},recoverAuthState:async()=>!1},w={id:1,title:`Научная электронная библиотека с длинным названием`,url:`https://example.com`,authorization_type:`Url`,resource_language:`RU`,description:`<p>Каталог научных публикаций, учебных пособий и электронных архивов для студентов университета.</p>`,imageUrl:null,created_at:null,updated_at:null,deleted_at:null},T=[{id:`bachelor-specialist`,title:`Бакалавриат и специалитет`,admission_page_url:``,competitive_list_page_url:``}],E={id:1,building_name:`fin`,course:1,teacher:`Александров Александр Александрович`,title:`Подготовка к экзамену по информационным системам и программированию`,file_type:null,download_available:!1},D={updated_at:`2026-09-11T10:00:00Z`,columns:[],page:1,items:[{"№":`1`,"Уникальный код поступающего":`123456789012345678901234567890`,"Конкурсная группа/образовательная программа":`Информационные системы и технологии: разработка программного обеспечения`,Финансирование:`Бюджет`,"Факультет/филиал":`Финансовый университет при Правительстве Российской Федерации`,"Сумма конкурсных баллов":`280`,"Наличие согласия на зачисление":`Да`,"Приоритет зачисления, указанный поступающим по данной конкурсной группе":`1`}]},O={title:`Screens/Catalogs`,parameters:{layout:`fullscreen`,docs:{description:{component:`Production screens с локальными API fixtures и гостевым контекстом. Внешние Bitrix формы проверяются отдельно в Services/EmbeddedForm; VR iframe использует about:blank. Настоящие API запросы и отправка форм не выполняются.`}}},beforeEach:e=>{y();let t=window.location.href,n=window.history.state;if(e.parameters.catalogBrowserHistory){let e=new URL(t);e.pathname=`/main/home`,e.searchParams.delete(`modal`),window.history.replaceState({...n,idx:0},``,e)}let r=window.fetch;return window.fetch=async(t,n)=>{let i=new URL(typeof t==`string`?t:t instanceof URL?t.href:t.url,location.origin);if(!i.pathname.startsWith(`/api/`))return r(t,n);if(e.parameters.holdApiLoading)return new Promise(()=>{});let a=[];return i.pathname.endsWith(`/elk/library/ebs-resources`)?a=[w]:i.pathname.endsWith(`/materials/facets`)?a={buildings:[`fin`],courses:[1],teachers:[E.teacher]}:i.pathname.endsWith(`/materials`)?a={items:[E],total:1}:i.pathname.endsWith(`/applications/catalog`)?a={levels:T}:i.pathname.endsWith(`/applications/subscriptions`)?a={items:[]}:i.pathname.includes(`/dictionaries/`)?a={values:[`Информационные системы и технологии`]}:i.pathname.endsWith(`/competitive-list`)&&(a=D),new Response(JSON.stringify({success:!0,data:a}),{status:200,headers:{"Content-Type":`application/json`}})},()=>{window.fetch=r,y(),e.parameters.catalogBrowserHistory&&window.history.replaceState(n,``,t)}},decorators:[(e,t)=>{let n=(0,S.jsx)(re.Provider,{value:C,children:(0,S.jsx)(ie.Provider,{value:C,children:(0,S.jsx)(ae.Provider,{value:{profile:null,isProfileLoading:!1,profileError:null},children:(0,S.jsx)(`div`,{style:{width:`100%`,minWidth:0,padding:t.parameters.catalogFullBleed?0:`var(--ui-space-4)`},children:(0,S.jsx)(e,{})})})})});return t.parameters.catalogBrowserHistory?(0,S.jsx)(i,{children:(0,S.jsx)(ee,{value:!0,children:n})}):(0,S.jsx)(r,{initialEntries:[t.parameters.catalogInitialPath??`/`],children:n})}]};const k={render:()=>(0,S.jsx)(d,{})},A={render:()=>(0,S.jsx)(u,{})},j={render:()=>(0,S.jsx)(l,{})},M={...j,globals:{theme:`dark`}},N={render:()=>(0,S.jsx)(v,{})};function P({titleKey:t}){let{t:n}=e(`itcServices`);return(0,S.jsx)(`div`,{className:`itc-about-page`,children:(0,S.jsx)(ne,{title:n(t),actions:(0,S.jsx)(te,{fallbackPath:`/main/home/itc`})})})}function F(){return(0,S.jsxs)(a,{children:[(0,S.jsx)(n,{path:`/main/home`,element:(0,S.jsx)(d,{})}),(0,S.jsx)(n,{path:`/main/home/itc`,element:(0,S.jsx)(h,{})}),(0,S.jsx)(n,{path:`/main/home/itc/about`,element:(0,S.jsx)(_,{})}),(0,S.jsx)(n,{path:`/main/home/itc/materials`,element:(0,S.jsx)(P,{titleKey:`services.materials.title`})}),(0,S.jsx)(n,{path:`/main/home/itc/poteryashki`,element:(0,S.jsx)(P,{titleKey:`services.lostAndFound.title`})})]})}const I={parameters:{catalogInitialPath:`/main/home/itc`},render:()=>(0,S.jsx)(F,{})},L={parameters:{catalogInitialPath:`/main/home/itc/about`},render:()=>(0,S.jsx)(F,{})},R={parameters:{catalogBrowserHistory:!0,docs:{description:{story:`Реальная browser history: главная → Сервисы ИТС → живой 3D-тур → закрытие → Назад. Проверяет совместную историю страницы и внешнего iframe.`}}},render:()=>(0,S.jsx)(F,{})},z={render:()=>(0,S.jsx)(x,{})},B={render:()=>(0,S.jsx)(b,{title:`Получение справки, транскрипта, выписки из зачетной книжки`,description:`Оформление учебных документов и выписок`})},V={render:()=>(0,S.jsx)(s,{})},H={render:()=>(0,S.jsx)(c,{})},U={parameters:{holdApiLoading:!0},render:()=>(0,S.jsx)(c,{})},W={render:()=>(0,S.jsx)(p,{})},G={parameters:{holdApiLoading:!0},render:()=>(0,S.jsx)(p,{})},K={...G,globals:{theme:`dark`}},q={render:()=>(0,S.jsx)(m,{})},J={parameters:{holdApiLoading:!0},render:()=>(0,S.jsx)(m,{})},Y={...J,globals:{theme:`dark`}},X={render:()=>(0,S.jsx)(f,{})},Z={render:()=>(0,S.jsx)(g,{isLoading:!0,onLoad:()=>{},src:`about:blank`})},Q={render:()=>(0,S.jsx)(g,{isLoading:!1,onLoad:()=>{},src:`about:blank`})},$={parameters:{catalogFullBleed:!0},render:()=>(0,S.jsx)(o,{})};k.parameters={...k.parameters,docs:{...k.parameters?.docs,source:{originalSource:`{
+  render: () => <ServicesPage />
+}`,...k.parameters?.docs?.source}}},A.parameters={...A.parameters,docs:{...A.parameters?.docs,source:{originalSource:`{
+  render: () => <AcademicServicesSection />
+}`,...A.parameters?.docs?.source}}},j.parameters={...j.parameters,docs:{...j.parameters?.docs,source:{originalSource:`{
+  render: () => <ServicesLoadingScreen />
+}`,...j.parameters?.docs?.source}}},M.parameters={...M.parameters,docs:{...M.parameters?.docs,source:{originalSource:`{
+  ...ServicesLoading,
+  globals: {
+    theme: "dark"
+  }
+}`,...M.parameters?.docs?.source}}},N.parameters={...N.parameters,docs:{...N.parameters?.docs,source:{originalSource:`{
+  render: () => <EmployeeServicesPage />
+}`,...N.parameters?.docs?.source}}},I.parameters={...I.parameters,docs:{...I.parameters?.docs,source:{originalSource:`{
+  parameters: {
+    catalogInitialPath: "/main/home/itc"
+  },
+  render: () => <ITCCatalogPreview />
+}`,...I.parameters?.docs?.source}}},L.parameters={...L.parameters,docs:{...L.parameters?.docs,source:{originalSource:`{
+  parameters: {
+    catalogInitialPath: "/main/home/itc/about"
+  },
+  render: () => <ITCCatalogPreview />
+}`,...L.parameters?.docs?.source}}},R.parameters={...R.parameters,docs:{...R.parameters?.docs,source:{originalSource:`{
+  parameters: {
+    catalogBrowserHistory: true,
+    docs: {
+      description: {
+        story: "Реальная browser history: главная → Сервисы ИТС → живой 3D-тур → закрытие → Назад. Проверяет совместную историю страницы и внешнего iframe."
+      }
+    }
+  },
+  render: () => <ITCCatalogPreview />
+}`,...R.parameters?.docs?.source}}},z.parameters={...z.parameters,docs:{...z.parameters?.docs,source:{originalSource:`{
+  render: () => <StudentOfficePage />
+}`,...z.parameters?.docs?.source}}},B.parameters={...B.parameters,docs:{...B.parameters?.docs,source:{originalSource:`{
+  render: () => <StudentOfficeSectionPage title="Получение справки, транскрипта, выписки из зачетной книжки" description="Оформление учебных документов и выписок" />
+}`,...B.parameters?.docs?.source}}},V.parameters={...V.parameters,docs:{...V.parameters?.docs,source:{originalSource:`{
+  render: () => <ApplicantsServicesPage />
+}`,...V.parameters?.docs?.source}}},H.parameters={...H.parameters,docs:{...H.parameters?.docs,source:{originalSource:`{
+  render: () => <ApplicationsPage />
+}`,...H.parameters?.docs?.source}}},U.parameters={...U.parameters,docs:{...U.parameters?.docs,source:{originalSource:`{
+  parameters: {
+    holdApiLoading: true
+  },
+  render: () => <ApplicationsPage />
+}`,...U.parameters?.docs?.source}}},W.parameters={...W.parameters,docs:{...W.parameters?.docs,source:{originalSource:`{
+  render: () => <LibraryPage />
+}`,...W.parameters?.docs?.source}}},G.parameters={...G.parameters,docs:{...G.parameters?.docs,source:{originalSource:`{
+  parameters: {
+    holdApiLoading: true
+  },
+  render: () => <LibraryPage />
+}`,...G.parameters?.docs?.source}}},K.parameters={...K.parameters,docs:{...K.parameters?.docs,source:{originalSource:`{
+  ...LibraryLoading,
+  globals: {
+    theme: "dark"
+  }
+}`,...K.parameters?.docs?.source}}},q.parameters={...q.parameters,docs:{...q.parameters?.docs,source:{originalSource:`{
+  render: () => <MaterialsPage />
+}`,...q.parameters?.docs?.source}}},J.parameters={...J.parameters,docs:{...J.parameters?.docs,source:{originalSource:`{
+  parameters: {
+    holdApiLoading: true
+  },
+  render: () => <MaterialsPage />
+}`,...J.parameters?.docs?.source}}},Y.parameters={...Y.parameters,docs:{...Y.parameters?.docs,source:{originalSource:`{
+  ...MaterialsLoading,
+  globals: {
+    theme: "dark"
+  }
+}`,...Y.parameters?.docs?.source}}},X.parameters={...X.parameters,docs:{...X.parameters?.docs,source:{originalSource:`{
+  render: () => <InDevelopmentPage />
+}`,...X.parameters?.docs?.source}}},Z.parameters={...Z.parameters,docs:{...Z.parameters?.docs,source:{originalSource:`{
+  render: () => <VRTourViewer isLoading onLoad={() => {}} src="about:blank" />
+}`,...Z.parameters?.docs?.source}}},Q.parameters={...Q.parameters,docs:{...Q.parameters?.docs,source:{originalSource:`{
+  render: () => <VRTourViewer isLoading={false} onLoad={() => {}} src="about:blank" />
+}`,...Q.parameters?.docs?.source}}},$.parameters={...$.parameters,docs:{...$.parameters?.docs,source:{originalSource:`{
+  parameters: {
+    catalogFullBleed: true
+  },
+  render: () => <LandingPage />
+}`,...$.parameters?.docs?.source}}};const oe=[`Services`,`AcademicServices`,`ServicesLoading`,`ServicesLoadingDark`,`EmployeeServices`,`ITCServices`,`ITCAbout`,`ITCNavigation`,`StudentOffice`,`StudentOfficeSection`,`Applicants`,`CompetitiveLists`,`CompetitiveListsLoading`,`Library`,`LibraryLoading`,`LibraryLoadingDark`,`Materials`,`MaterialsLoading`,`MaterialsLoadingDark`,`InDevelopment`,`VRTourLoading`,`VRTourReady`,`Landing`];export{A as AcademicServices,V as Applicants,H as CompetitiveLists,U as CompetitiveListsLoading,N as EmployeeServices,L as ITCAbout,R as ITCNavigation,I as ITCServices,X as InDevelopment,$ as Landing,W as Library,G as LibraryLoading,K as LibraryLoadingDark,q as Materials,J as MaterialsLoading,Y as MaterialsLoadingDark,k as Services,j as ServicesLoading,M as ServicesLoadingDark,z as StudentOffice,B as StudentOfficeSection,Z as VRTourLoading,Q as VRTourReady,oe as __namedExportsOrder,O as default};
