@@ -1,0 +1,1 @@
+import{S as e}from"./iframe-BKdHUONo.js";var t=e();const n=(0,t.createContext)(null);function r(){return(0,t.useContext)(n)}export{r as n,n as t};
