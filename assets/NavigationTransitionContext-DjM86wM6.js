@@ -1,0 +1,1 @@
+import{S as e}from"./iframe-8nZf5U1I.js";var t=e(),n=(0,t.createContext)(!1);const r=n.Provider;function i(){return(0,t.useContext)(n)}export{i as n,r as t};
