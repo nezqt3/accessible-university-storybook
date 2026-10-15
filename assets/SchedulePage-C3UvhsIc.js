@@ -1,0 +1,76 @@
+import{t as e}from"./useTranslation-5YtSZpFC.js";import{S as t,t as n}from"./iframe-DPTPUGSQ.js";import{k as r}from"./scheduleStorage-B3peMIKz.js";import{a as i,n as a,r as o}from"./motion-C9fxwz80.js";import{n as s,t as c}from"./use-reduced-motion-Cv57RTRX.js";import{n as l}from"./LoaderTransitionContext-BjkgqnwC.js";import{t as u}from"./BlurTransition-Bb5gkZF5.js";import{n as d}from"./Typography-D3unIxzR.js";import{t as f}from"./AsyncContentTransition-CMOLkmz7.js";import{t as p}from"./Skeleton-BKB6TRkV.js";import{n as m}from"./ScheduleWeekSwitcher-pT6bgh4B.js";import{t as h}from"./LessonCard-CE4BuHgI.js";var g=t(),_=n(),v=[];function y({snapshot:e,isPrevious:t,revealCurrent:n,shouldReduceMotion:r,getItemKey:c,renderItem:l,onPreviousExit:u,onCurrentReveal:d}){let f=r?{opacity:0}:{opacity:0,filter:`blur(${o.Subtle})`,y:i.Card},p=r?{opacity:1}:{opacity:1,filter:`blur(0px)`,y:0},h={opacity:0,filter:`blur(0px)`,y:0};return(0,_.jsx)(`div`,{className:`schedule-day-transition__list schedule-day-transition__list--${t?`previous`:`current`}`,"data-schedule-day-list":t?`previous`:`current`,"aria-hidden":t||void 0,inert:t||void 0,children:e.items.map((i,o)=>(0,_.jsx)(s.div,{className:`schedule-day-transition__card schedule-day-transition__card--${t?`previous`:`current`}`,"data-schedule-day-layer":t?`previous`:`current`,initial:t?!1:n?f:!1,animate:t?h:p,transition:r?a.Reduced:t?m.cardExit:{...m.cardReveal,delay:m.cardRevealDelay+Math.min(o*m.cardStagger,m.cardStaggerCap)},onAnimationComplete:t&&o===0?u:!t&&n&&o===e.items.length-1?d:void 0,children:l(i,o)},c(i,o)))})}function b({contentKey:e,items:t,getItemKey:n,renderItem:r,emptyContent:i,loading:a=!1,loadingContent:o=null,reducedMotion:s,animateOnMount:l=!1}){let d=c(),f=s??!!d,p={contentKey:e,items:a?v:t,layerKey:0},[m,h]=(0,g.useState)({current:p,previous:null,revision:0,revealCurrent:l&&p.items.length>0,loading:a}),b=m;if(m.current.contentKey!==e||a&&!m.loading&&m.current.items.length>0)b={current:{...p,layerKey:m.revision+1},previous:!m.revealCurrent&&m.current.items.length>0?m.current:a||m.loading?m.previous:null,revision:m.revision+1,revealCurrent:p.items.length>0,loading:a},h(b);else if(m.current.items!==p.items||m.loading!==a){let e=m.current.items.length===0&&p.items.length>0;b={...m,current:{...p,layerKey:m.current.layerKey},revision:e?m.revision+1:m.revision,revealCurrent:e,loading:a},h(b)}let x=b.revealCurrent,S=b.revision,C=b.previous,w=()=>{h(e=>e.previous===C?{...e,previous:null}:e)},T=()=>{h(e=>e.revision===S?{...e,revealCurrent:!1}:e)};return(0,_.jsxs)(`div`,{className:`schedule-day-transition`,"data-reduced-motion":f||void 0,children:[(0,_.jsxs)(`div`,{className:`schedule-day-transition__cards${a&&b.previous&&b.current.items.length===0?` schedule-day-transition__cards--pending`:``}`,children:[b.previous?(0,_.jsx)(y,{snapshot:b.previous,isPrevious:!0,revealCurrent:!1,shouldReduceMotion:f,getItemKey:n,renderItem:r,onPreviousExit:w,onCurrentReveal:T},b.previous.layerKey):null,(0,_.jsx)(y,{snapshot:b.current,isPrevious:!1,revealCurrent:x,shouldReduceMotion:f,getItemKey:n,renderItem:r,onPreviousExit:w,onCurrentReveal:T},b.current.layerKey)]}),(0,_.jsx)(u,{as:`div`,variant:`standard`,contentKey:a?`loading-${String(b.current.contentKey)}`:b.current.items.length===0?`empty-${String(b.current.contentKey)}`:`lessons`,reducedMotion:f,className:`schedule-day-transition__empty`,children:b.current.items.length===0?a?b.previous?null:o:i:null})]})}b.__docgenInfo={description:`Replaces cached schedule-day content card by card. A stable outgoing snapshot is capped at one;
+an interrupted incoming snapshot is dropped so rapid changes never enter a transition queue.`,methods:[],displayName:`ScheduleDayTransition`,props:{contentKey:{required:!0,tsType:{name:`Key`},description:``},items:{required:!0,tsType:{name:`unknown`},description:``},getItemKey:{required:!0,tsType:{name:`signature`,type:`function`,raw:`(item: TItem, index: number) => Key`,signature:{arguments:[{type:{name:`TItem`},name:`item`},{type:{name:`number`},name:`index`}],return:{name:`Key`}}},description:``},renderItem:{required:!0,tsType:{name:`signature`,type:`function`,raw:`(item: TItem, index: number) => ReactNode`,signature:{arguments:[{type:{name:`TItem`},name:`item`},{type:{name:`number`},name:`index`}],return:{name:`ReactNode`}}},description:``},emptyContent:{required:!0,tsType:{name:`ReactNode`},description:``},loading:{required:!1,tsType:{name:`boolean`},description:``,defaultValue:{value:`false`,computed:!1}},loadingContent:{required:!1,tsType:{name:`ReactNode`},description:``,defaultValue:{value:`null`,computed:!1}},reducedMotion:{required:!1,tsType:{name:`boolean`},description:``},animateOnMount:{required:!1,tsType:{name:`boolean`},description:``,defaultValue:{value:`false`,computed:!1}}}};function x({reducedMotion:t}){let{t:n}=e(`schedule`),r=c(),i=t??!!r,o=l();return(0,_.jsx)(s.div,{className:`schedule-skeleton-list`,"aria-label":n(`lesson.loadingAria`),initial:o?.isTransitioning?!1:{opacity:0},animate:{opacity:1},transition:i?a.Reduced:a.Standard,children:Array.from({length:4}).map((e,t)=>(0,_.jsxs)(`div`,{className:`schedule-skeleton-card`,children:[(0,_.jsxs)(`div`,{className:`schedule-skeleton-card__top`,children:[(0,_.jsx)(p,{className:`schedule-skeleton schedule-skeleton--time`}),(0,_.jsx)(p,{className:`schedule-skeleton schedule-skeleton--chip`})]}),(0,_.jsx)(p,{className:`schedule-skeleton schedule-skeleton--title`}),(0,_.jsx)(p,{className:`schedule-skeleton schedule-skeleton--subtitle`}),(0,_.jsxs)(`div`,{className:`schedule-skeleton-card__bottom`,children:[(0,_.jsx)(p,{className:`schedule-skeleton schedule-skeleton--meta`}),(0,_.jsx)(p,{className:`schedule-skeleton schedule-skeleton--meta-short`})]})]},t))})}x.__docgenInfo={description:``,methods:[],displayName:`ScheduleLessonsSkeleton`,props:{reducedMotion:{required:!1,tsType:{name:`boolean`},description:``}}};function S(e){return e.lesson_ids.length>0?e.lesson_ids.join(`|`):[e.discipline,e.date,e.start_time,e.end_time,e.lesson_num??``].join(`-`)}const C=(0,g.memo)(function({selectedDate:t,todaysLessons:n,isLessonsLoading:i,isSwiping:a=!1,studyPlace:o,onChooseLesson:s,scheduleChoose:c,onOpenLessonInformation:l,onSwipeHandlers:u,children:p,reducedMotion:m}){let{t:v}=e(`schedule`),y=r(t),[C,w]=(0,g.useState)(!i);!C&&!i&&w(!0);let T=!i&&n.length===0?v(c===null?`lesson.noSchedule`:`lesson.noLessonsToday`):null;return(0,_.jsxs)(`div`,{className:`schedule-lessons schedule-swipe-surface ${a?`schedule-swipe-surface--active`:``}`,"data-schedule-lesson-list":!0,"aria-busy":i,...u,children:[(0,_.jsx)(f,{loading:i&&!C,skeleton:(0,_.jsx)(x,{reducedMotion:m}),contentKey:`lessons`,reducedMotion:m,children:(0,_.jsx)(b,{contentKey:y,items:n,loading:i,loadingContent:(0,_.jsx)(x,{reducedMotion:m}),getItemKey:S,emptyContent:T?(0,_.jsx)(d,{className:`schedule-no-lessons`,tone:`soft`,align:`center`,children:T}):null,reducedMotion:m,renderItem:e=>(0,_.jsx)(h,{lesson:e,scheduleType:c?.type,studyPlace:o,scheduleGroupName:c?.type===`group`?c.name:void 0,setOpenLessonInformationClose:l,setChooseLesson:s})})}),p]})});C.__docgenInfo={description:``,methods:[],displayName:`ScheduleLessonsList`,props:{selectedDate:{required:!0,tsType:{name:`Date`},description:``},direction:{required:!1,tsType:{name:`number`},description:``},todaysLessons:{required:!0,tsType:{name:`Array`,elements:[{name:`intersection`,raw:`GroupedLesson & {
+  isNow: boolean;
+}`,elements:[{name:`intersection`,raw:`Omit<Lesson, "kind_of_work" | "lesson_id"> & {
+  lesson_ids: string[];
+  kind_of_work: TypesOfPair[];
+  variants: GroupedLessonVariant[];
+}`,elements:[{name:`Omit`,elements:[{name:`Lesson`},{name:`union`,raw:`"kind_of_work" | "lesson_id"`,elements:[{name:`literal`,value:`"kind_of_work"`},{name:`literal`,value:`"lesson_id"`}]}],raw:`Omit<Lesson, "kind_of_work" | "lesson_id">`},{name:`signature`,type:`object`,raw:`{
+  lesson_ids: string[];
+  kind_of_work: TypesOfPair[];
+  variants: GroupedLessonVariant[];
+}`,signature:{properties:[{key:`lesson_ids`,value:{name:`Array`,elements:[{name:`string`}],raw:`string[]`,required:!0}},{key:`kind_of_work`,value:{name:`Array`,elements:[{name:`TypesOfPair`}],raw:`TypesOfPair[]`,required:!0}},{key:`variants`,value:{name:`Array`,elements:[{name:`Pick`,elements:[{name:`Lesson`},{name:`union`,raw:`| "lesson_id"
+| "lecturer"
+| "lecturer_full_name"
+| "lecturerFullName"
+| "lecturer_email"
+| "group"
+| "auditorium"
+| "building"
+| "url1"
+| "url2"
+| "is_cancelled"
+| "kind_of_work"
+| "lesson_num"`,elements:[{name:`literal`,value:`"lesson_id"`},{name:`literal`,value:`"lecturer"`},{name:`literal`,value:`"lecturer_full_name"`},{name:`literal`,value:`"lecturerFullName"`},{name:`literal`,value:`"lecturer_email"`},{name:`literal`,value:`"group"`},{name:`literal`,value:`"auditorium"`},{name:`literal`,value:`"building"`},{name:`literal`,value:`"url1"`},{name:`literal`,value:`"url2"`},{name:`literal`,value:`"is_cancelled"`},{name:`literal`,value:`"kind_of_work"`},{name:`literal`,value:`"lesson_num"`}]}],raw:`Pick<
+  Lesson,
+  | "lesson_id"
+  | "lecturer"
+  | "lecturer_full_name"
+  | "lecturerFullName"
+  | "lecturer_email"
+  | "group"
+  | "auditorium"
+  | "building"
+  | "url1"
+  | "url2"
+  | "is_cancelled"
+  | "kind_of_work"
+  | "lesson_num"
+>`}],raw:`GroupedLessonVariant[]`,required:!0}}]}}]},{name:`signature`,type:`object`,raw:`{
+  isNow: boolean;
+}`,signature:{properties:[{key:`isNow`,value:{name:`boolean`,required:!0}}]}}]}],raw:`GroupedLessonWithStatus[]`},description:``},isLessonsLoading:{required:!0,tsType:{name:`boolean`},description:``},isSwiping:{required:!1,tsType:{name:`boolean`},description:``,defaultValue:{value:`false`,computed:!1}},studyPlace:{required:!1,tsType:{name:`union`,raw:`"fin" | "kip" | "lyceum" | "mfk" | string`,elements:[{name:`literal`,value:`"fin"`},{name:`literal`,value:`"kip"`},{name:`literal`,value:`"lyceum"`},{name:`literal`,value:`"mfk"`},{name:`string`}]},description:``},onChooseLesson:{required:!0,tsType:{name:`signature`,type:`function`,raw:`(lesson: GroupedLesson) => void`,signature:{arguments:[{type:{name:`intersection`,raw:`Omit<Lesson, "kind_of_work" | "lesson_id"> & {
+  lesson_ids: string[];
+  kind_of_work: TypesOfPair[];
+  variants: GroupedLessonVariant[];
+}`,elements:[{name:`Omit`,elements:[{name:`Lesson`},{name:`union`,raw:`"kind_of_work" | "lesson_id"`,elements:[{name:`literal`,value:`"kind_of_work"`},{name:`literal`,value:`"lesson_id"`}]}],raw:`Omit<Lesson, "kind_of_work" | "lesson_id">`},{name:`signature`,type:`object`,raw:`{
+  lesson_ids: string[];
+  kind_of_work: TypesOfPair[];
+  variants: GroupedLessonVariant[];
+}`,signature:{properties:[{key:`lesson_ids`,value:{name:`Array`,elements:[{name:`string`}],raw:`string[]`,required:!0}},{key:`kind_of_work`,value:{name:`Array`,elements:[{name:`TypesOfPair`}],raw:`TypesOfPair[]`,required:!0}},{key:`variants`,value:{name:`Array`,elements:[{name:`Pick`,elements:[{name:`Lesson`},{name:`union`,raw:`| "lesson_id"
+| "lecturer"
+| "lecturer_full_name"
+| "lecturerFullName"
+| "lecturer_email"
+| "group"
+| "auditorium"
+| "building"
+| "url1"
+| "url2"
+| "is_cancelled"
+| "kind_of_work"
+| "lesson_num"`,elements:[{name:`literal`,value:`"lesson_id"`},{name:`literal`,value:`"lecturer"`},{name:`literal`,value:`"lecturer_full_name"`},{name:`literal`,value:`"lecturerFullName"`},{name:`literal`,value:`"lecturer_email"`},{name:`literal`,value:`"group"`},{name:`literal`,value:`"auditorium"`},{name:`literal`,value:`"building"`},{name:`literal`,value:`"url1"`},{name:`literal`,value:`"url2"`},{name:`literal`,value:`"is_cancelled"`},{name:`literal`,value:`"kind_of_work"`},{name:`literal`,value:`"lesson_num"`}]}],raw:`Pick<
+  Lesson,
+  | "lesson_id"
+  | "lecturer"
+  | "lecturer_full_name"
+  | "lecturerFullName"
+  | "lecturer_email"
+  | "group"
+  | "auditorium"
+  | "building"
+  | "url1"
+  | "url2"
+  | "is_cancelled"
+  | "kind_of_work"
+  | "lesson_num"
+>`}],raw:`GroupedLessonVariant[]`,required:!0}}]}}]},name:`lesson`}],return:{name:`void`}}},description:``},scheduleChoose:{required:!1,tsType:{name:`union`,raw:`SearchItem | null`,elements:[{name:`SearchItem`},{name:`null`}]},description:``},onOpenLessonInformation:{required:!0,tsType:{name:`signature`,type:`function`,raw:`() => void`,signature:{arguments:[],return:{name:`void`}}},description:``},onSwipeHandlers:{required:!1,tsType:{name:`HTMLAttributes`,elements:[{name:`HTMLDivElement`}],raw:`HTMLAttributes<HTMLDivElement>`},description:``},children:{required:!1,tsType:{name:`ReactNode`},description:``},reducedMotion:{required:!1,tsType:{name:`boolean`},description:``}}};export{C as t};
