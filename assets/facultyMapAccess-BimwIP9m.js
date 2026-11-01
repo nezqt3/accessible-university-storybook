@@ -1,0 +1,1 @@
+var e=/^[^\s@]+@(?:edu\.)?fa\.ru$/i;function t(t){return[t?.email,t?.corporate_email].some(t=>typeof t==`string`&&e.test(t.trim()))}export{t};

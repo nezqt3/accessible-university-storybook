@@ -1,0 +1,1 @@
+import{w as e}from"./iframe-BWQ9bya-.js";var t=e();const n=(0,t.createContext)(null);function r(){return(0,t.useContext)(n)}export{r as n,n as t};
